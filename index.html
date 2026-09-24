@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osvaza | Catálogo de Ilustración</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <h1>Osvaza</h1>
+            <!-- Ícono de Instagram -->
+            <a href="https://www.instagram.com/osvaza/" target="_blank" rel="noopener noreferrer" class="ig-link" title="Instagram Osvaza">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+            </a>
+        </div>
+        <p>Obra original: Tinta china, acuarela y grabado</p>
+        
+        <!-- Contenedor de todos los filtros -->
+        <div class="filter-group">
+            <!-- Filtros por Técnica -->
+            <nav class="filters" id="filter-tech">
+                <button class="filter-btn active" data-tech="todas">Todas las técnicas</button>
+                <button class="filter-btn" data-tech="tinta china">Tinta china</button>
+                <button class="filter-btn" data-tech="acuarela">Acuarela</button>
+                <button class="filter-btn" data-tech="grabado">Grabado</button>
+                <button class="filter-btn" data-tech="pluma bic">Pluma bic</button>
+            </nav>
+
+            <!-- Filtros por Año -->
+            <nav class="filters" id="filter-year">
+                <button class="filter-btn active" data-year="todos">Todos los años</button>
+                <button class="filter-btn" data-year="25">2025</button>
+                <button class="filter-btn" data-year="24">2024</button>
+                <button class="filter-btn" data-year="23">2023</button>
+                <button class="filter-btn" data-year="22">2022</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="gallery-container" id="gallery">
+    </main>
+
+    <footer class="footer">
+        <p>Envíos desde CDMX. Contáctame en <a href="https://www.instagram.com/osvaza/" target="_blank" rel="noopener noreferrer">Instagram</a>.</p>
+    </footer>
+
+    <!-- Contenedor para la Caja de Luz (Lightbox) -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="" alt="Vista en detalle">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
