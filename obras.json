@@ -59,5 +59,19 @@
     { "id": "2518", "titulo": "Monstrito", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2518.JPG" },
     { "id": "2519", "titulo": "A travez", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2519.JPG" },
     { "id": "2520", "titulo": "Sting", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2520.JPG" },
-    { "id": "2521", "titulo": "Mess", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2521.JPG" }
+    { "id": "2521", "titulo": "Mess", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2521.JPG" },
+    { "id": "2419", "titulo": "Todo pasa", "tecnica": "Grabado", "tamaño": "23x30 cm", "precio": "$500 MXN", "imagen": "assets/2521.JPG" },
+    { "id": "2219", "titulo": "Siren", "tecnica": "Pluma bic", "tamaño": "23x30 cm", "precio": "$500 MXN", "imagen": "assets/2521.JPG" },
+    { "id": "2522", "titulo": "Holy Shit", "tecnica": "Grabado", "tamaño": "25x35 cm", "precio": "$500 MXN", "imagen": "assets/2521.JPG" },
+    { "id": "2420", "titulo": "Torzo", "tecnica": "Pluma bic", "tamaño": "23x30 cm", "precio": "$500 MXN", "imagen": "assets/2521.JPG" },
+    { "id": "2101", "titulo": "Sour", "tecnica": "Acuarela", "tamaño": "23x23 cm", "precio": "$500 MXN", "imagen": "assets/2521.JPG" },
+    { "id": "2102", "titulo": "Nave", "tecnica": "Acuarela", "tamaño": "23x23 cm", "precio": "$500 MXN", "imagen": "assets/2521.JPG" },
+    { "id": "2103", "titulo": "Fan", "tecnica": "Acuarela", "tamaño": "23x23 cm", "precio": "$500 MXN", "imagen": "assets/2521.JPG" },
+    { "id": "2215", "titulo": "Antifaz", "tecnica": "Pluma bic", "tamaño": "23x30 cm", "precio": "$500 MXN", "imagen": "assets/2521.JPG" },
+    { "id": "1901", "titulo": "Bailarinas 1", "tecnica": "Acuarela", "tamaño": "16x35 cm", "precio": "$500 MXN", "imagen": "assets/2521.JPG" },
+    { "id": "1904", "titulo": "Bailarinas 2", "tecnica": "Acuarela", "tamaño": "16x35 cm", "precio": "$500 MXN", "imagen": "assets/2521.JPG" }, 
+    { "id": "1902", "titulo": "Ballena", "tecnica": "Acuarela", "tamaño": "30x45 cm", "precio": "$700 MXN", "imagen": "assets/2521.JPG" },
+    { "id": "1903", "titulo": "Espada", "tecnica": "Tinta china", "tamaño": "19x24 cm", "precio": "$500 MXN", "imagen": "assets/2521.JPG" },
+    { "id": "2421", "titulo": "Ay el diablo", "tecnica": "Grabado", "tamaño": "23x30 cm", "precio": "$500 MXN", "imagen": "assets/2521.JPG" },
+    { "id": "2418", "titulo": "Escondite", "tecnica": "Grabado", "tamaño": "23x30 cm", "precio": "$500 MXN", "imagen": "assets/2520.JPG" }
 ]
