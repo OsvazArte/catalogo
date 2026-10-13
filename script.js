@@ -76,19 +76,21 @@ function renderizarGaleria(obras) {
 function aplicarFiltros() {
     let obrasFiltradas = todasLasObras;
 
+    // REGLA ESTRICTA PARA CONTENIDO NSFW
+    // Si el botón activo de técnica no es 'pluma bic', removemos todas las obras de pluma bic de la lista.
+    if (filtroActualTecnica !== 'pluma bic') {
+        obrasFiltradas = obrasFiltradas.filter(obra => !obra.tecnica.toLowerCase().includes('pluma bic'));
+    }
+
+    // 1. Filtramos por Año
     if (filtroActualAño !== 'todos') {
         obrasFiltradas = obrasFiltradas.filter(obra => obra.id.startsWith(filtroActualAño));
     }
 
-    // Aquí está el cambio para ocultar la pluma bic
+    // 2. Filtramos por Técnica (para las demás opciones)
     if (filtroActualTecnica !== 'todas') {
         obrasFiltradas = obrasFiltradas.filter(obra => 
             obra.tecnica.toLowerCase().includes(filtroActualTecnica)
-        );
-    } else {
-        // Si estamos viendo "Todas las técnicas", excluye las de pluma bic
-        obrasFiltradas = obrasFiltradas.filter(obra => 
-            !obra.tecnica.toLowerCase().includes('pluma bic')
         );
     }
 
