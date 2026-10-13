@@ -75,7 +75,14 @@
     { "id": "2601", "titulo": "Apple", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2601.JPG" },
     { "id": "2602", "titulo": "Relic", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2602.JPG" },
     { "id": "2603", "titulo": "Miniature", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2603.JPG" },
+    { "id": "2606", "titulo": "Toss", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2606.JPG" },
+    { "id": "2607", "titulo": "Ram", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2607.JPG" },
+    { "id": "2608", "titulo": "Stinky", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2608.JPG" },
+    { "id": "2609", "titulo": "Panic", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2609.JPG" },
+    { "id": "2610", "titulo": "Rescue", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2610.JPG" },
+    { "id": "2611", "titulo": "Mystical", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2611.JPG" },
     { "id": "2604", "titulo": "Cactus", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2604.JPG" },
+    { "id": "2612", "titulo": "Ogre", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2612.JPG" },
     { "id": "2605", "titulo": "Smack", "tecnica": "Tinta china", "tamaño": "23x30 cm", "precio": "$700 MXN", "imagen": "assets/2605.JPG" },
     { "id": "2418", "titulo": "Escondite", "tecnica": "Grabado", "tamaño": "23x30 cm", "precio": "$500 MXN", "imagen": "assets/2418.JPG" }
 ]

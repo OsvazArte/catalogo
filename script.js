@@ -45,11 +45,13 @@ function renderizarGaleria(obras) {
         const mensajeCodificado = encodeURIComponent(mensajeTexto);
         const enlaceWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensajeCodificado}`;
 
-        // Verificamos si existe el tamaño para mostrarlo limpiamente
         const textoTamaño = obra.tamaño ? ` • ${obra.tamaño}` : '';
+        
+        // Modificamos la ruta para cargar la imagen ligera en la galería
+        const rutaMiniatura = obra.imagen.replace('assets/', 'assets/min/');
 
         article.innerHTML = `
-            <img src="${obra.imagen}" alt="${obra.titulo}" class="obra-img" loading="lazy">
+            <img src="${rutaMiniatura}" alt="${obra.titulo}" class="obra-img" loading="lazy">
             <div class="card-content">
                 <h2>${obra.titulo}</h2>
                 <p class="technique">${obra.tecnica}${textoTamaño}</p>
@@ -62,6 +64,7 @@ function renderizarGaleria(obras) {
 
         const imgElement = article.querySelector('.obra-img');
         imgElement.addEventListener('click', () => {
+            // El lightbox sigue usando la ruta original de alta calidad
             lightboxImg.src = obra.imagen;
             lightbox.classList.add('active');
         });
@@ -77,9 +80,15 @@ function aplicarFiltros() {
         obrasFiltradas = obrasFiltradas.filter(obra => obra.id.startsWith(filtroActualAño));
     }
 
+    // Aquí está el cambio para ocultar la pluma bic
     if (filtroActualTecnica !== 'todas') {
         obrasFiltradas = obrasFiltradas.filter(obra => 
             obra.tecnica.toLowerCase().includes(filtroActualTecnica)
+        );
+    } else {
+        // Si estamos viendo "Todas las técnicas", excluye las de pluma bic
+        obrasFiltradas = obrasFiltradas.filter(obra => 
+            !obra.tecnica.toLowerCase().includes('pluma bic')
         );
     }
 
